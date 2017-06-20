@@ -9,10 +9,10 @@
 10.times do |blog|
   Blog.create!(
     title: "My Blog Post #{blog}",
-    body: “Hello”
+    body: "Hello"
   )
 end
-puts "10 blog posts created" 
+puts "10 blog posts created"
 
 5.times do |skill|
   Skill.create!(
@@ -25,10 +25,10 @@ puts "5 skills created"
 9.times do |portfolio_item|
   Portfolio.create!(
     title: "Portfolio title: #{portfolio_item}",
-    subtitle: ”Hello”,
+    subtitle: "Hello",
     body:  "Hello",
-    main_image:  ”placehold.it/600x400”, 
-    thumb_image: ”placehold.it/350x150”
-    )
+    main_image:  "placehold.it/600x400", 
+    thumb_image: "placehold.it/350x150"
+  )
 end
-puts "9 portfolio items created”
+puts "9 portfolio items created"

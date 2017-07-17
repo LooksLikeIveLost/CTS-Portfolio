@@ -15,4 +15,8 @@ module ApplicationHelper
       content_tag(:p, greeting, class: "source-greeting")
     end
   end
+  
+  def copyright_generator
+    HaDevcampViewTool::Renderer.copyright "Why hello there, sir.", "all rights reserved"
+  end
 end

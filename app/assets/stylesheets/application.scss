@@ -173,3 +173,17 @@ body {
 .auth-links a {
   color: black;
 }
+
+.register-text {
+  text-align: right;
+}
+
+.card {
+  border: 10px solid rgba(0, 0, 0, 0);
+}
+
+.login > .card {
+  width: 22rem;
+  margin: 0 auto;
+  float: none;
+}

@@ -17,6 +17,6 @@ module ApplicationHelper
   end
   
   def copyright_generator
-    HaDevcampViewTool::Renderer.copyright "Why hello there, sir.", "all rights reserved"
+    HaDevcampViewTool::Renderer.copyright "Mike Wasowski", "all rights reserved"
   end
 end
